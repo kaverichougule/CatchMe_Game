@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: url('./images/flowers1.jpg');
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    background-repeat: no-repeat; 
+
+}
+
+.butterfly {
+    position: absolute;
+    background-image: url('./images/butterfly.png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
